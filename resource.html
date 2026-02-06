@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>INST462</title>
+    <title>INST462 Resources</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -25,7 +25,7 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@
 
 </head>
 
-<body id="top">
+<body id="top" class="home">
 
     <!-- preloader
     ================================================== -->
@@ -51,6 +51,21 @@
 
         <div class="row">
 
+            <div class="s-header__content column">
+                <h1 class="s-header__logotext">
+                <a href="index.html" title="">
+                <p style="font-family: 'Lora', serif; font-size: 3.5rem; font-weight: 600; color:#222;">INST462</p>
+                 <span>Introduction to</span><br>
+                 <span>Data Visualization</span>
+                </a>
+                </h1>
+                <p class="s-header__tagline"><br> 
+                <span>Instructor: Keke Wu</span><br>
+                <span>Semester: Spring 2026</span><br>
+                </span> Time: Tue 11–12:15 EST (Lecture) | Fri 9:30–1:45 EST (Discussion)</span></p>
+                <p class="image-credit">Image credit: beautiful.ai</p>
+            </div>
+
         </div> <!-- end row -->
 
        <nav class="s-header__nav-wrap">
@@ -59,7 +74,6 @@
 
                 <ul class="s-header__nav">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="demo.html">Demo</a></li>	
                     <li class="current"><a href="resource.html">Resources</a></li>
                 </ul> <!-- end #nav -->
 
@@ -75,151 +89,76 @@
 
     <!-- Content
     ================================================== -->
-    <div class="s-content">
+    <div class="s-content" style="padding-top: 0rem; padding-bottom: 2rem;">
 
-        <div class="row">
+        <div class="row add-bottom">
+            <div class="column large-full">
 
-            <div id="main" class="s-content__main large-8 column">
-
-                <section class="page-content">
-
-                    <h2 class="page-content__title h1">Archives.</h2>
-                    
-                    <p class="lead">
-                    Lorem ipsum Nisi enim est proident est magna occaecat dolore 
-                    proident eu ex sunt consectetur consectetur dolore enim nisi exercitation 
-                    adipisicing magna culpa commodo deserunt ut do Ut occaecat. Lorem ipsum Veniam 
-                    consequat quis.
-                    </p>	
-                    
-                    <h4>Last 10 Posts.</h4>
-                    <ul>
-                        <li><a href="#0">Dolor irure velit commodo cillum sit nulla</a></li>
-                        <li><a href="#0">laborum mollit quis nostrud sed</a></li>
-                        <li><a href="#0">consequat occaecat fugiat in adipisicing</a></li>
-                        <li><a href="#0">qui labore cillum sit in tempor veniam consequat</a></li>
-                        <li><a href="#0">quis nostrud sed sed</a></li>
-                        <li><a href="#0">quis proident ullamco ut dolore</a></li>
-                        <li><a href="#0">Dolor irure velit commodo cillum sit nulla</a></li>
-                        <li><a href="#0">veniam dolor dolor irure velit commodo cillum</a></li>
-                        <li><a href="#0">Dolor irure velit commodo cillum sit nulla</a></li>
-                        <li><a href="#0">voluptate enim veniam consequat occaecat</a></li>
-                    </ul>
-
-                    <h4>Archives By Month.</h4>
-                    <ul>
-                        <li><a href="#0">July 2019</a></li>
-                        <li><a href="#0">August 2019</a></li>
-                        <li><a href="#0">September 2019</a></li>
-                        <li><a href="#0">October 2019</a></li>
-                        <li><a href="#0">November 2019</a></li>
-                        <li><a href="#0">December 2019</a></li>
-                    </ul>
-
-                    <h4>Archives By Category.</h4>
-                    <ul>
-                        <li><a href="#0">Wordpress</a></li>
-                        <li><a href="#0">Ghost</a></li>
-                        <li><a href="#0">Joomla</a></li>
-                        <li><a href="#0">Drupal</a></li>
-                        <li><a href="#0">Magento</a></li>
-                        <li><a href="#0">Uncategorized</a></li>
-                    </ul>
-
-                    <h4>Site Map.</h4>
-
-                    <ul>
-                        <li><a href="#0">Archives</a></li>
-                        <li><a href="#0">Home</a></li>
-                        <li><a href="#0">About Us</a></li>
-                        <li><a href="#0">Blog</a></li>
-                        <li><a href="#0">Demo</a></li>
-                        <li><a href="#0">Other Stuff</a></li>
-                    </ul>
-
-                </section> <!-- end page -->
-
-           </div> <!-- end main -->
-
-
-           <div id="sidebar" class="s-content__sidebar large-4 column">
-
-               <div class="widget widget--search">
-                  <h3 class="h6">Search</h3> 
-                  <form action="#0">
-                     <input type="text" value="Search here..." onblur="if(this.value == '') { this.value = 'Search here...'; }" onfocus="if (this.value == 'Search here...') { this.value = ''; }" class="text-search">
-                     <input type="submit" value="" class="submit-search">
-                  </form>
-               </div>
-
-               <div class="widget widget--categories">
-                   <h3 class="h6">Categories.</h3> 
-                   <ul>
-                        <li><a href="#0" title="">Wordpress</a> (2)</li>
-                        <li><a href="#0" title="">Ghost</a> (14)</li>
-                        <li><a href="#0" title="">Joomla</a> (5)</li>
-                        <li><a href="#0" title="">Drupal</a> (3)</li>
-                        <li><a href="#0" title="">Magento</a> (2)</li>
-                        <li><a href="#0" title="">Uncategorized</a> (9)</li>
-                    </ul>
-                </div>
-
-                <div class="widget widget_text group">
-                    <h3 class="h6">Widget Text.</h3>
-
-                    <p>
-                    Lorem ipsum Ullamco commodo laboris sit dolore commodo aliquip incididunt fugiat esse dolor 
-                    aute fugiat minim eiusmod do velit labore fugiat officia ad sit culpa labore in consectetur 
-                    sint cillum sint consectetur voluptate adipisicing Duis irure magna ut sit amet reprehenderit.
+                <div class="gray-box">
+                    <h3>Resources</h3>
+                    <p style="text-align: justify;">
+                        Links for programming, visualization tools, and color resources used in INST462.
+                        (More coming soon.)
                     </p>
                 </div>
 
-                <div class="widget widget_tags">
-                    <h3 class="h6">Post Tags.</h3>
+                <div class="gray-box">
+                    <h3>Programming</h3>
 
-                    <div class="tagcloud group">
-                        <a href="#0">Corporate</a>
-                        <a href="#0">Onepage</a>
-                        <a href="#0">Agency</a>
-                        <a href="#0">Multipurpose</a>
-                        <a href="#0">Blog</a>
-                        <a href="#0">Landing Page</a>
-                        <a href="#0">Resume</a>0
-                    </div>
-                </div>
+                    <h4 style="margin-top: 1rem;">D3</h4>
+                    <ul>
+                        <li><a href="https://observablehq.com/@d3/gallery" target="_blank" rel="noopener">Examples / Gallery</a></li>
+                        <li><a href="https://observablehq.com/@d3/learn-d3" target="_blank" rel="noopener">Tutorials</a></li>
+                        <li><a href="https://github.com/d3/d3/wiki" target="_blank" rel="noopener">Documentation</a></li>
+                    </ul>
 
-                <div class="widget widget_popular">
-                    <h3 class="h6">Popular Post.</h3>
+                    <h4 style="margin-top: 1rem;">Front-End Web Stack</h4>
+                    <ul>
+                        <li><strong>HTML:</strong> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">Mozilla Developer Network (MDN)</a></li>
+                        <li><strong>CSS:</strong> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener">MDN</a>; <a href="http://www.csszengarden.com/" target="_blank" rel="noopener">CSS Zen Garden</a></li>
+                        <li><strong>JavaScript:</strong> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener">MDN</a>; <a href="https://eloquentjavascript.net/" target="_blank" rel="noopener">Eloquent JavaScript</a>; <a href="https://www.patterns.dev/" target="_blank" rel="noopener">Design Patterns</a></li>
+                    </ul>
 
-                    <ul class="link-list">
-                        <li><a href="#0">Sint cillum consectetur voluptate.</a></li>
-                        <li><a href="#0">Lorem ipsum Ullamco commodo.</a></li>
-                        <li><a href="#0">Fugiat minim eiusmod do.</a></li>
+                    <h4 style="margin-top: 1rem;">JavaScript Frameworks</h4>
+                    <ul>
+                        <li><a href="https://react.dev/" target="_blank" rel="noopener">React</a></li>
+                        <li><a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a></li>
+                    </ul>
+
+                    <h4 style="margin-top: 1rem;">Other Visualization Toolkits</h4>
+                    <ul>
+                        <li><a href="https://vega.github.io/vega/" target="_blank" rel="noopener">Vega</a></li>
+                        <li><a href="https://vega.github.io/vega-lite/" target="_blank" rel="noopener">Vega-Lite</a></li>
+                        <li><a href="https://p5js.org/" target="_blank" rel="noopener">p5.js</a> and <a href="https://processing.org/" target="_blank" rel="noopener">Processing</a></li>
+                        <li><a href="https://matplotlib.org/" target="_blank" rel="noopener">Matplotlib</a> and <a href="https://seaborn.pydata.org/" target="_blank" rel="noopener">Seaborn</a> (Python)</li>
+                        <li><a href="https://ggplot2.tidyverse.org/" target="_blank" rel="noopener">ggplot2</a> (R)</li>
+                        <li>Tableau Tutorials (Jay Patel) <span style="opacity:0.8;">(link coming soon)</span></li>
+                        <li><a href="https://docs.github.com/en/get-started" target="_blank" rel="noopener">GitHub Tutorials</a></li>
                     </ul>
                 </div>
-               
-           </div> <!-- end sidebar -->
 
-       </div> <!-- end row -->
+                <div class="gray-box">
+                    <h3>Color</h3>
+                    <ul>
+                        <li><a href="https://colorbrewer2.org/" target="_blank" rel="noopener">ColorBrewer 2.0</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb" target="_blank" rel="noopener">RGB color values (0 to 255)</a></li>
+                    </ul>
+                </div>
 
-   </div> <!-- end content-wrap -->
+                <p style="margin-top: 1.5rem; opacity: 0.85;"><em>(...more soon...)</em></p>
+
+            </div>
+        </div> <!-- end row -->
+
+    </div> <!-- end content-wrap -->
 
 
     <!-- Footer
     ================================================== -->
     <footer class="s-footer">
-
-        <div class="row s-footer__top">
-        </div> <!-- end footer__top -->
-        <div class="row s-footer__bottom">
-        <div class="row s-footer__bottom">
             <div class="ss-copyright">
                 <span>© 2026 University of Maryland, College Park</span> 
-                <span>Designed by Keke Wu</span>
             </div>
-        </div> <!-- end footer__bottom -->
-
-
 
         <div class="ss-go-top">
             <a class="smoothscroll" title="Back to Top" href="#top">
